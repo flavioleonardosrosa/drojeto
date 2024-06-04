@@ -1,0 +1,42 @@
+#F2C5FA, #F2AEFA, #DC8EE5, #D875E1, #D16ADC
+
+/*
+cores do site
+#F2C5FA
+#F2AEFA
+#DC8EE5
+#D875E1
+#D16ADC
+*/
+
+:root {
+--cor1: #F2C5FA;
+--cor2: #F2AEFA;
+--cor3: #DC8EE5;
+--cor4: #D875E1;
+--cor5: #D16ADC;
+}
+
+
+:root {
+    --cor1: #F2C5FA;
+    --cor2: #F2AEFA;
+    --cor3: #DC8EE5;
+    --cor4: #D875E1;
+    --cor5: #D16ADC;
+    --cor6: #c5ebd6;
+    --cor7: #83e1ad;
+    --cor8: #3ddc84;
+    --cor9: #2fa866;
+    --cor10:#1a5c37;
+    --cor11:#063d1e;
+    --cor12:#F5F3AF;
+    --cor13:#F5F278;
+    --cor14:#F5F145;
+    --cor15:#FAF62A;
+    --cor16:#E6E418;
+    --cor17:#E5DD16;
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+    }

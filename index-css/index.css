@@ -1,0 +1,112 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet');
+@font-face{
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+cores do site
+#F2C5FA
+#F2AEFA
+#DC8EE5
+#D875E1
+#D16ADC
+*/
+:root {
+    --cor1: #F2C5FA;
+    --cor2: #F2AEFA;
+    --cor3: #DC8EE5;
+    --cor4: #D875E1;
+    --cor5: #D16ADC;
+    --cor6: #c5ebd6;
+    --cor7: #83e1ad;
+    --cor8: #3ddc84;
+    --cor9: #2fa866;
+    --cor10:#1a5c37;
+    --cor11:#063d1e;
+    --cor12:#F5F3AF;
+    --cor13:#F5F278;
+    --cor14:#F5F145;
+    --cor15:#FAF62A;
+    --cor16:#E6E418;
+    --cor17:#E5DD16;
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+    }
+body{
+    background-image: linear-gradient(to right, #F2C5FA, #F2AEFA, #DC8EE5, #D875E1, #D16ADC);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ header{
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor3), var(--cor2));
+    min-height: 150px;
+    padding-top: 20px;
+ }
+
+ header > h1{
+    color: var(--cor12);
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(29, 23, 23, 0.808);
+    text-align: center;
+ }
+
+ header > p{
+    color: #F5F3AF;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    max-width: 1500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgb(36, 31, 31);
+ }
+ 
+ nav{
+    text-decoration: none;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor4));
+    padding: 10px;
+    box-shadow: 0px 8px 8px rgba(15, 14, 14, 0.788);
+ }
+ nav > a {
+    color: #E5DD16;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: bolder;
+    transition: .6s;
+ }
+ nav > a:hover{
+    background-color: var(--cor4);
+    color: var(--cor17);    
+}
+main{
+    background-image: linear-gradient(to right, var(--cor5),  var(--cor4),var(--cor2));
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+    margin-bottom: 35px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+main img{
+    width: 100%;
+}
+main img .pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
